@@ -18,6 +18,7 @@
     ".eslintrc.js"
   ],
   "main": "index.js",
+  "private": false,
   "repository": "git@github.com:stockulus/eslint-config-react.git",
   "homepage": "https://github.com/stockulus/eslint-config-react",
   "author": {
