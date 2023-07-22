@@ -1,4 +1,4 @@
-# @stockulus/eslint-config-react
+# eslint-config-react-stockulus
 
 This packages is a set of eslint rules, recommended for all React Projects.
 
@@ -9,7 +9,7 @@ This Project is also bundled with [Prettier](https://prettier.io/) in order to e
 ## Usage
 
 ```bash
-yarn add eslint typescript @stockulus/eslint-config-react -D
+yarn add eslint typescript eslint-config-react-stockulus -D
 ```
 
 Now add the config to either your `package.json`:
@@ -17,7 +17,7 @@ Now add the config to either your `package.json`:
 ```json
 {
   "eslintConfig": {
-    "extends": "@stockulus/eslint-config-react"
+    "extends": "eslint-config-react-stockulus"
   }
 }
 ```
@@ -26,7 +26,7 @@ to your `.eslintrc`:
 
 ```json
 {
-  "extends": "@stockulus/eslint-config-react"
+  "extends": "eslint-config-react-stockulus"
 }
 ```
 
@@ -34,7 +34,7 @@ or `.eslintrc.js`:
 
 ```js
 module.exports = {
-  extends: '@stockulus/eslint-config-react'
+  extends: 'eslint-config-react-stockulus'
 }
 ```
 
