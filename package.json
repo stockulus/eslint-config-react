@@ -1,0 +1,62 @@
+{
+  "name": "@stockulus/eslint-config-react",
+  "version": "0.9.0",
+  "description": "eslint package for react projects",
+  "scripts": {
+    "test": "yarn lint",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "updtr": "yarn upgrade-interactive --latest",
+    "prerelease": "yarn test",
+    "version:patch": "yarn version --patch",
+    "version:minor": "yarn version --minor",
+    "version:major": "yarn version --major",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "index.js",
+    ".eslintrc.js"
+  ],
+  "main": "index.js",
+  "repository": "git@github.com:stockulus/eslint-config-react.git",
+  "homepage": "https://github.com/stockulus/eslint-config-react",
+  "author": {
+    "email": "stockulus@icloud.com",
+    "name": "Christoph Stock",
+    "url": "https://github.com/stockulus/"
+  },
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "stockulus",
+    "react"
+  ],
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 8.0.0",
+    "postcss": ">= 8.0.0",
+    "tailwindcss": ">= 3.0.0",
+    "typescript": ">= 4.0.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.1.0",
+    "@typescript-eslint/parser": "^6.1.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-tailwindcss": "^3.13.0",
+    "prettier": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0",
+    "postcss": "^8.4.25",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.1.6"
+  }
+}
