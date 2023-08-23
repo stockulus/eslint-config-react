@@ -64,6 +64,7 @@ You properly have a Prettier Extension installed. This might cause conflicts wit
 This ESLint configuration comes with some fundamental assumptions:
 
 - React environment
+- TailwindCSS
 - parser: typescript
 
 ## Developer instructions
