@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-react-stockulus",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "eslint package for react projects",
   "scripts": {
     "test": "yarn lint",
